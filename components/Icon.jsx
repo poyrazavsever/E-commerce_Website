@@ -5,13 +5,14 @@ import * as Bi from "react-icons/bi";
 import * as Ci from "react-icons/ci";
 import * as Si from "react-icons/si";
 import * as Fi from "react-icons/fi";
+import * as Sl from "react-icons/sl";
 
 const ReactIcon = (props) => {
 
     const {
         iconName,
         iconType,
-        iconColor = "text-white",
+        iconColor = "text-zinc-500",
         classname = "",
     } = props;
 
@@ -24,9 +25,9 @@ const ReactIcon = (props) => {
             case "ai":
                 icon = React.createElement(Ai[iconName]);
                 break;
-			case "bi":
-				icon = React.createElement(Bi[iconName]);
-				break;
+            case "bi":
+                icon = React.createElement(Bi[iconName]);
+                break;
             case "si":
                 icon = React.createElement(Si[iconName]);
                 break;
@@ -36,11 +37,14 @@ const ReactIcon = (props) => {
             case "fi":
                 icon = React.createElement(Fi[iconName]);
                 break;
+            case "sl":
+                icon = React.createElement(Sl[iconName]);
+                break;
             default:
                 break;
         }
     }
-    
+
     return (
         <span className={`${classname.toString()} ${iconColor.toString()}`}>
             {icon}

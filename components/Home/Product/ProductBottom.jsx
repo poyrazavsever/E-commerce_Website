@@ -10,7 +10,7 @@ const ProductBottom = () => {
         {
           data?.map((product, i) => {
             return (
-              <ProductCard key={i} name={product.name} discount={product.discount} price={product.price} link={product.imgLink} />
+              <ProductCard key={i} name={product.name} discount={product.discount} price={product.price} link={product.images[0].image} />
             )
           })
         }

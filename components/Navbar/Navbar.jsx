@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div>
 
-      <div className="border-b border-tert-200">
+      <div className="border-b border-neutral-200">
         <div className="container mx-auto">
           <NavbarTop />
           <NavbarBottom />

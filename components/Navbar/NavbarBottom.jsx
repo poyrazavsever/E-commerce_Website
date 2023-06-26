@@ -8,7 +8,7 @@ function NavbarBottom() {
         <div className="flex items-center justify-between py-10 relative">
 
             <div>
-                <h2 className="font-bold font-sans text-xl md:text-2xl tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-neutral-600 to-tert-200">Loucer Butik</h2>
+                <h2 className="font-bold font-sans text-xl md:text-2xl tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-neutral-600 to-zinc-900">Loucer Butik</h2>
             </div>
 
             <div>
@@ -20,7 +20,7 @@ function NavbarBottom() {
                             Yeni Gelenler
                         </li>
 
-                        <div className="absolute right-0 w-full pt-20 hidden animate-card group-hover:block">
+                        <div className="absolute right-0 w-full pt-20 hidden animate-card group-hover:block bg-white">
 
                             <div className="flex items-start gap-16">
 
@@ -109,7 +109,7 @@ function NavbarBottom() {
                             Öne Çıkanlar
                         </li>
 
-                        <div className="absolute right-0 w-full pt-20 hidden animate-card group-hover:block">
+                        <div className="absolute bg-white right-0 w-full pt-20 hidden animate-card group-hover:block">
 
                             <div className="flex items-start gap-16">
 
@@ -206,7 +206,7 @@ function NavbarBottom() {
                             Eşofman
                         </li>
 
-                        <div className="absolute right-0 w-full pt-20 hidden animate-card group-hover:block">
+                        <div className="absolute bg-white right-0 w-full pt-20 hidden animate-card group-hover:block">
 
                             <div className="flex items-start gap-16">
 
@@ -303,7 +303,7 @@ function NavbarBottom() {
                             Aksesuar
                         </li>
 
-                        <div className="absolute right-0 w-full pt-20 hidden animate-card group-hover:block">
+                        <div className="absolute bg-white right-0 w-full pt-20 hidden animate-card group-hover:block">
 
                             <div className="flex items-start gap-16">
 

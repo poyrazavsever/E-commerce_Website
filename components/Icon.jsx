@@ -6,6 +6,7 @@ import * as Ci from "react-icons/ci";
 import * as Si from "react-icons/si";
 import * as Fi from "react-icons/fi";
 import * as Sl from "react-icons/sl";
+import * as Fa from "react-icons/fa";
 
 const ReactIcon = (props) => {
 
@@ -39,6 +40,9 @@ const ReactIcon = (props) => {
                 break;
             case "sl":
                 icon = React.createElement(Sl[iconName]);
+                break;
+            case "fa":
+                icon = React.createElement(Fa[iconName]);
                 break;
             default:
                 break;

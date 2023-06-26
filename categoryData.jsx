@@ -21,55 +21,55 @@ export const typeData = [
 
 export const colorData = [
     {
-        color : "red-500"
-    },
-    {
-        color : "green-500"
-    },
-    {
-        color : "sky-500"
-    },
-    {
-        color : "amber-500"
-    },
-    {
-        color : "violet-500"
+        color : "neutral-200"
     },
     {
         color : "neutral-200"
     },
     {
-        color : "black"
+        color : "neutral-200"
     },
     {
-        color : "red-500"
+        color : "neutral-200"
     },
     {
-        color : "red-500"
+        color : "neutral-200"
     },
     {
-        color : "red-500"
+        color : "neutral-200"
     },
     {
-        color : "red-500"
+        color : "neutral-200"
     },
     {
-        color : "red-500"
+        color : "neutral-200"
     },
     {
-        color : "red-500"
+        color : "neutral-200"
     },
     {
-        color : "red-500"
+        color : "neutral-200"
     },
     {
-        color : "red-500"
+        color : "neutral-200"
     },
     {
-        color : "red-500"
+        color : "neutral-200"
     },
     {
-        color : "red-500"
+        color : "neutral-200"
+    },
+    {
+        color : "neutral-200"
+    },
+    {
+        color : "neutral-200"
+    },
+    {
+        color : "neutral-200"
+    },
+    {
+        color : "neutral-200"
     },
 ]
 

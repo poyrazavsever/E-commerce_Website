@@ -28,9 +28,9 @@ function ColorCategory() {
                 })}>
                     <div className="grid grid-cols-4 gap-4">
                         {
-                            colorData?.map((type) => {
+                            colorData?.map((type, i) => {
                                 return (
-                                    <div key={type.color} className={`w-6 h-6 rounded-full cursor-pointer bg-${type.color}`}></div>
+                                    <div key={i} className={`w-6 h-6 rounded-full cursor-pointer bg-${type.color}`}></div>
                                 )
                             })
                         }

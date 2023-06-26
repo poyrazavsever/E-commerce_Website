@@ -29,9 +29,9 @@ function TypeCategory() {
           {
             typeData?.map((type) => {
               return (
-                <div className="flex items-center gap-2 cursor-pointer">
-                  <input type="checkbox" class="accent-neutral-500" id={type.name}/>
-                  <label key={type.name} for={type.name} className="cursor-pointer">{type.name}</label>
+                <div className="flex items-center gap-2 cursor-pointer"  key={type.name}>
+                  <input type="checkbox" className="accent-neutral-500" id={type.name}/>
+                  <label htmlFor={type.name} className="cursor-pointer">{type.name}</label>
                 </div>
 
               )

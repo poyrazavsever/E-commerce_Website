@@ -29,9 +29,9 @@ function BodyCategory() {
           {
             bodyData?.map((type) => {
               return (
-                <div className="flex items-center gap-2 cursor-pointer">
-                  <input type="checkbox" class="accent-neutral-500" id={type.body}/>
-                  <label key={type.body} for={type.body} className="cursor-pointer">{type.body}</label>
+                <div className="flex items-center gap-2 cursor-pointer" key={type.body}>
+                  <input type="checkbox" className="accent-neutral-500" id={type.body}/>
+                  <label htmlFor={type.body} className="cursor-pointer">{type.body}</label>
                 </div>
 
               )

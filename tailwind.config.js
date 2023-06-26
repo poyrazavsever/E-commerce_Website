@@ -6,7 +6,16 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      sm: '623px',
+      md: '1024px',
+    },
     extend: {
+      screens : {
+        "mobile" : {"max" : "623px", "min" : "0px"},
+        "desktop" : {"min": "624px"}
+      },
+
       colors: {
         primary : {
           DEFAULT:"#FAF8F1",
@@ -28,6 +37,17 @@ module.exports = {
           100: "#9E6E33",
           200: "#765226",
         }
+      },
+      
+      keyframes : {
+        card: {
+          '0%' : {opacity:0},
+          '100%': { opacity:1 }
+        },
+      },
+
+      animation: {
+        card : 'card .3s ease-in forwards',
       },
     },
   },

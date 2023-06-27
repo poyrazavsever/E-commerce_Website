@@ -1,6 +1,9 @@
 export const data = [
     {
         name: 'Dokulu Oversize Gömlek Beyaz 1',
+        type:"tişört",
+        rate:"200",
+        star:"4",
         discount:"600TL",
         price: "188 TL",
         color:"Beyaz",
@@ -42,6 +45,9 @@ export const data = [
     },
     {
         name: 'Dokulu Oversize Gömlek Beyaz 2',
+        type:"tişört",
+        rate:"200",
+        star:"4",
         price: "185 TL",
         images: [
             {
@@ -79,7 +85,10 @@ export const data = [
         ]
     },
     {
+        type:"tişört",
         discount:"600TL",
+        rate:"200",
+        star:"4",
         name: 'Dokulu Oversize Gömlek Beyaz 3',
         price: "184 TL",
         images: [

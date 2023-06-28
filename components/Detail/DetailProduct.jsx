@@ -126,12 +126,12 @@ const DetailProduct = () => {
               {
                 otherColors?.map((color, i) => {
                   return (
-                    <>
+                    <div key={i}>
                       <button className='w-10'>
-                        <img src={color.image} key={i} data-tooltip-id={color.color} data-tooltip-content={color.color} className='w-full rounded' />
+                        <img src={color.image} data-tooltip-id={color.color} data-tooltip-content={color.color} className='w-full rounded' />
                       </button>
                       <Tooltip id={color.color} />
-                    </>
+                    </div>
 
                   )
                 })

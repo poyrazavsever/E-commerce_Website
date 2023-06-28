@@ -42,9 +42,9 @@ function SimilarProduct() {
                     className='relative'>
                     <Slider>
                         {
-                            similarProduct?.map((product) => {
+                            similarProduct?.map((product, i) => {
                                 return (
-                                    <Slide>
+                                    <Slide key={i}>
                                         <SimilarCard name={product.name} discount={product.discount} price={product.price} link={product.images[0].image} />
                                     </Slide>
                                 )

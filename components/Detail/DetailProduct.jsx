@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router'
 
 import { data } from "../../productData"
@@ -17,7 +17,9 @@ const DetailProduct = () => {
   const router = useRouter()
 
   let totalSlides
-  let name, star, rate, price, discount, color, images, otherColors;
+  let total = 0
+  let commentArray = []
+  let name, star, rate, comments, price, discount, color, images, otherColors;
   const [isBody, setIsBody] = useState("XS")
 
 
@@ -27,8 +29,13 @@ const DetailProduct = () => {
 
       // Ekleme yaptık
       name = dataItem.name
-      star = dataItem.star
-      rate = dataItem.rate
+      dataItem.comments?.forEach((item) => {
+        total += item.star
+        commentArray.push(item)
+        rate = commentArray.length
+        star = total / commentArray.length
+      })
+      comments = dataItem.comments
       price = dataItem.price
       discount = dataItem.discount
       images = dataItem.images
@@ -36,6 +43,8 @@ const DetailProduct = () => {
       otherColors = dataItem.otherColors
     }
   })
+
+  console.log(commentArray)
 
   return (
     <div>

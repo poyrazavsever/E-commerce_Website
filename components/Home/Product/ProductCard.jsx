@@ -3,7 +3,7 @@ import Icon from "../../Icon"
 const ProductCard = ({ name, price, discount, link }) => {
 
   return (
-    <a href={`/${name}`}>
+    <a href={`/${name}`} className="z-0">
 
       <div className="relative">
 

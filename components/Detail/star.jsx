@@ -4,7 +4,7 @@ import Icon from "../Icon"
 function Star({star}) {
 
     switch (star) {
-        case "1": return (
+        case 1: return (
             <div className='flex items-center gap-1'>
                 <Icon iconType="ai" iconName="AiFillHeart" iconColor="text-amber-400 text-lg" />
                 <Icon iconType="ai" iconName="AiOutlineHeart" iconColor="text-neutral-400 text-lg" />
@@ -14,7 +14,7 @@ function Star({star}) {
             </div>
 
         );
-        case "2": return (
+        case 2: return (
             <div className='flex items-center gap-1'>
                 <Icon iconType="ai" iconName="AiFillHeart" iconColor="text-amber-400 text-lg" />
                 <Icon iconType="ai" iconName="AiFillHeart" iconColor="text-amber-400  text-lg" />
@@ -23,7 +23,7 @@ function Star({star}) {
                 <Icon iconType="ai" iconName="AiOutlineHeart" iconColor="text-neutral-400 text-lg" />
             </div>
         );
-        case "3": return (
+        case 3: return (
             <div className='flex items-center gap-1'>
                 <Icon iconType="ai" iconName="AiFillHeart" iconColor="text-amber-400 text-lg" />
                 <Icon iconType="ai" iconName="AiFillHeart" iconColor="text-amber-400  text-lg" />
@@ -32,7 +32,7 @@ function Star({star}) {
                 <Icon iconType="ai" iconName="AiOutlineHeart" iconColor="text-neutral-400 text-lg" />
             </div>
         );
-        case "4": return (
+        case 4 : return (
             <div className='flex items-center gap-1'>
                 <Icon iconType="ai" iconName="AiFillHeart" iconColor="text-amber-400 text-lg" />
                 <Icon iconType="ai" iconName="AiFillHeart" iconColor="text-amber-400  text-lg" />
@@ -41,7 +41,7 @@ function Star({star}) {
                 <Icon iconType="ai" iconName="AiOutlineHeart" iconColor="text-neutral-400 text-lg" />
             </div>
         );
-        case "5": return (
+        case 5: return (
             <div className='flex items-center gap-1'>
                 <Icon iconType="ai" iconName="AiFillHeart" iconColor="text-amber-400 text-lg" />
                 <Icon iconType="ai" iconName="AiFillHeart" iconColor="text-amber-400  text-lg" />

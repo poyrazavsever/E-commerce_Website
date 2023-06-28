@@ -6,8 +6,8 @@ function Layout({ children }) {
   return (
     <div>
       <Navbar />
-      <main>{children}</main>
-      <Footer />
+      <main className='mb-24'>{children}</main>
+      <Footer/>
     </div>
   )
 }

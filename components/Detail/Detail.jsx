@@ -1,6 +1,7 @@
 import React from 'react'
 import DetailProduct from './DetailProduct'
 import SimilarProduct from './SimilarProduct'
+import Comments from './Comments'
 
 const Detail = () => {
   return (
@@ -14,6 +15,8 @@ const Detail = () => {
 
       <div className='container mx-auto'>
         <SimilarProduct />
+
+        <Comments />
       </div>
 
 

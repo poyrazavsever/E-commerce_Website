@@ -5,7 +5,7 @@ import classNames from "classnames"
 
 function BodyCategory() {
 
-  const [isVisible, setIsVisible] = useState(false)
+  const [isVisible, setIsVisible] = useState(true)
 
   return (
     <div>

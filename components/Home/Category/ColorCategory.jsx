@@ -5,7 +5,7 @@ import classNames from "classnames"
 
 function ColorCategory() {
 
-    const [isVisible, setIsVisible] = useState(false)
+    const [isVisible, setIsVisible] = useState(true)
 
     return (
         <div>

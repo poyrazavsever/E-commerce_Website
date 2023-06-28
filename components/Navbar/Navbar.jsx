@@ -3,7 +3,7 @@ import NavbarTop from "./NavbarTop"
 
 function Navbar() {
   return (
-    <div>
+    <nav>
 
       <div className="border-b border-neutral-200">
         <div className="container mx-auto">
@@ -13,7 +13,7 @@ function Navbar() {
       </div>
 
 
-    </div>
+    </nav>
   )
 }
 

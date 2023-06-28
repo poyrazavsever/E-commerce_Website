@@ -14,7 +14,7 @@ export default function Home() {
 
       {/* Ürünler  */}
 
-      <div className='container mx-auto my-24'>
+      <div className='md:container md:mx-auto my-24'>
 
         <div className='flex items-start gap-24'>
           <Category />

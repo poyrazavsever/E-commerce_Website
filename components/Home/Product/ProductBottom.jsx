@@ -6,7 +6,7 @@ const ProductBottom = () => {
   return (
     <div className='w-full mt-12'>
 
-      <div className='w-full grid grid-cols-2 md:grid-cols-3 gap-8 gap-y-16'>
+      <div className='w-full grid justify-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 gap-y-16'>
         {
           data?.map((product, i) => {
             return (

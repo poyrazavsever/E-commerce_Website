@@ -23,8 +23,8 @@ function MobileNavbar() {
 
                     <div className={classNames({
                         'animate-card w-screen h-screen absolute top-0 left-0 bg-white !z-50 px-16 py-12 transition-all': true,
-                        'opacity-100 pointer-events-auto translate-x-0': isOpen,
-                        'opacity-0 pointer-events-none translate-x-full ': !isOpen
+                        'opacity-100 block  pointer-events-auto translate-x-0': isOpen,
+                        'opacity-0 hidden pointer-events-none translate-x-full ': !isOpen
                     })}>
 
                         <div className='flex items-center justify-between'>

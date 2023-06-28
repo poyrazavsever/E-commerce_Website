@@ -94,9 +94,9 @@ function NavbarBottom() {
                                     </div>
 
                                     <div className="flex items-center ">
-                                        <Image src="/Images/navbar1.png" alt="Navbar1" />
-                                        <Image src="/Images/navbar2.png" alt="Navbar2" />
-                                        <Image src="/Images/navbar3.png" alt="Navbar3" />
+                                        <Image src="/Images/navbar1.png" alt="Navbar1" height="80" width="100"/>
+                                        <Image src="/Images/navbar2.png" alt="Navbar2" height="80" width="100"/>
+                                        <Image src="/Images/navbar3.png" alt="Navbar3" height="80" width="100"/>
                                     </div>
                                 </div>
 
@@ -183,9 +183,9 @@ function NavbarBottom() {
                                     </div>
 
                                     <div className="flex items-center ">
-                                        <Image src="/Images/navbar1.png" alt="Navbar1" />
-                                        <Image src="/Images/navbar2.png" alt="Navbar2" />
-                                        <Image src="/Images/navbar3.png" alt="Navbar3" />
+                                        <Image src="/Images/navbar1.png" alt="Navbar1" height="80" width="100"/>
+                                        <Image src="/Images/navbar2.png" alt="Navbar2" height="80" width="100"/>
+                                        <Image src="/Images/navbar3.png" alt="Navbar3"  height="80" width="100"/>
                                     </div>
                                 </div>
 
@@ -280,9 +280,9 @@ function NavbarBottom() {
                                     </div>
 
                                     <div className="flex items-center ">
-                                        <Image src="/Images/navbar1.png" alt="Navbar1" />
-                                        <Image src="/Images/navbar2.png" alt="Navbar2" />
-                                        <Image src="/Images/navbar3.png" alt="Navbar3" />
+                                        <Image src="/Images/navbar1.png" alt="Navbar1" height="80" width="100"/>
+                                        <Image src="/Images/navbar2.png" alt="Navbar2" height="80" width="100"/>
+                                        <Image src="/Images/navbar3.png" alt="Navbar3" height="80" width="100"/>
                                     </div>
                                 </div>
 
@@ -377,9 +377,9 @@ function NavbarBottom() {
                                     </div>
 
                                     <div className="flex items-center ">
-                                        <Image src="/Images/navbar1.png" alt="Navbar1" />
-                                        <Image src="/Images/navbar2.png" alt="Navbar2" />
-                                        <Image src="/Images/navbar3.png" alt="Navbar3" />
+                                        <Image src="/Images/navbar1.png" alt="Navbar1" height="80" width="100" />
+                                        <Image src="/Images/navbar2.png" alt="Navbar2" height="80" width="100" />
+                                        <Image src="/Images/navbar3.png" alt="Navbar3" height="80" width="100" />
                                     </div>
                                 </div>
 

@@ -30,7 +30,7 @@ function ColorCategory() {
                         {
                             colorData?.map((type, i) => {
                                 return (
-                                    <div key={i} className={`w-6 h-6 rounded-full cursor-pointer bg-${type.color}`}></div>
+                                    <div key={i} className={`w-6 h-6 rounded-full cursor-pointer`} style={{backgroundColor:type.color}}></div>
                                 )
                             })
                         }

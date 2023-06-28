@@ -18,7 +18,7 @@ function BodyCategory() {
             "rotate-0" : !isVisible,
             "rotate-90" : isVisible,
           })} />
-          <span className="text-base md:text-lg font-medium text-neutral-700 uppercase">Kategoriler</span>
+          <span className="text-base md:text-lg font-medium text-neutral-700 uppercase">Bedenler</span>
         </button>
 
         <div className={classNames({

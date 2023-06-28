@@ -66,9 +66,9 @@ const Comments = () => {
             <div className="flex flex-col items-end gap-16">
                 <ul className="flex flex-col items-start gap-4 animate-card w-full">
                     {
-                        records?.map((commentItem) => {
+                        records?.map((commentItem, i) => {
                             return (
-                                <CommentCard name={commentItem.name} comment={commentItem.comment} star={commentItem.star} date={commentItem.date} />
+                                <CommentCard key={i} name={commentItem.name} comment={commentItem.comment} star={commentItem.star} date={commentItem.date} />
                             )
                         })
                     }

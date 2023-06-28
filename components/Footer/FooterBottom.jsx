@@ -1,4 +1,5 @@
 import Icon from "../Icon"
+import Link from "next/link"
 
 function FooterBottom() {
 
@@ -7,10 +8,10 @@ function FooterBottom() {
     return (
         <div className="flex mobile:flex-col mobile:gap-12 items-start justify-between border-t border-neutral-300 py-8">
 
-            <a href="/" className="desktop:hidden w-full">
+            <Link href="/" className="desktop:hidden w-full">
                 <h2 className="font-bold font-sans text-2xl tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-neutral-600 to-zinc-900 mb-2">Loucer Butik</h2>
                 <hr />
-            </a>
+            </Link>
 
             <div className='flex flex-col items-start gap-4'>
                 <h4 className='text-sm md:text-base font-semibold text-neutral-800'>Size Nasıl Yardım Edebiliriz?</h4>

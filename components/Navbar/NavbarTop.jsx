@@ -1,6 +1,7 @@
+import { useState } from "react"
 import Icon from "../Icon"
 
-function NavbarTop() {
+function NavbarTop({setIsLoginVisible, setIsRegisterVisible}) {
 
     const btnStyle = "hover:text-neutral-800 transition-all"
 
@@ -27,13 +28,14 @@ function NavbarTop() {
 
                     <div>
                         <span className="text-neutral-500 text-xs">
-                            <button className={btnStyle}>Giriş Yap</button> <span>/</span>  <button className={btnStyle}>Kayıt Ol</button>
+                            <button className={btnStyle} onClick={() => setIsLoginVisible(true)}>Giriş Yap</button> <span>/</span>  
+                            <button className={btnStyle} onClick={() => setIsRegisterVisible(true)}>Kayıt Ol</button>
                         </span>
                     </div>
                 </div>
 
                 <div className="flex items-center gap-1 group">
-                    <Icon iconType="ai" iconName="AiOutlineHeart" classname="text-xs group-hover:text-neutral-800 transition-all"/>
+                    <Icon iconType="ai" iconName="AiOutlineHeart" classname="text-xs group-hover:text-neutral-800 transition-all" />
 
                     <button className="text-neutral-500 text-xs group-hover:text-neutral-800 transition-all">
                         Favorilerim
@@ -41,7 +43,7 @@ function NavbarTop() {
                 </div>
 
                 <div className="flex items-center gap-1 group">
-                    <Icon iconType="sl" iconName="SlBasket" classname="text-xs group-hover:text-neutral-800 transition-all"/>
+                    <Icon iconType="sl" iconName="SlBasket" classname="text-xs group-hover:text-neutral-800 transition-all" />
 
                     <button className="text-neutral-500 text-xs group-hover:text-neutral-800 transition-all">
                         Sepetim
@@ -53,5 +55,6 @@ function NavbarTop() {
         </div>
     )
 }
+
 
 export default NavbarTop

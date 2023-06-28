@@ -8,9 +8,9 @@ function NavbarBottom() {
         <div>
             <div className="flex items-center justify-between py-10 relative">
 
-                <div>
+                <a href="/">
                     <h2 className="font-bold font-sans text-xl md:text-2xl tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-neutral-600 to-zinc-900">Loucer Butik</h2>
-                </div>
+                </a>
 
                 <div className="z-20">
                     <ul className="flex items-center gap-6">

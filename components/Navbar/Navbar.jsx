@@ -1,13 +1,13 @@
 import NavbarBottom from "./NavbarBottom"
 import NavbarTop from "./NavbarTop"
 
-function Navbar() {
+function Navbar({ setIsLoginVisible, setIsRegisterVisible }) {
   return (
-    <nav>
+    <nav className="!z-20">
 
       <div className="border-b border-neutral-200">
         <div className="container mx-auto">
-          <NavbarTop />
+          <NavbarTop setIsLoginVisible={setIsLoginVisible} setIsRegisterVisible={setIsRegisterVisible} />
           <NavbarBottom />
         </div>
       </div>

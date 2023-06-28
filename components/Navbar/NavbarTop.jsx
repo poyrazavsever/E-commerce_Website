@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Icon from "../Icon"
 
-function NavbarTop({setIsLoginVisible, setIsRegisterVisible}) {
+function NavbarTop({ setIsLoginVisible, setIsRegisterVisible }) {
 
     const btnStyle = "hover:text-neutral-800 transition-all"
 
@@ -13,14 +13,6 @@ function NavbarTop({setIsLoginVisible, setIsRegisterVisible}) {
                 <p className="text-xs md:text-sm text-neutral-500"><span className="text-neutral-700 font-medium ">0850 7777 66 55</span> - Destek Hattı</p>
             </div>
 
-            <div className="relative">
-
-                <span className="absolute top-[9px] left-2"><Icon iconType="ai" iconName="AiOutlineSearch" classname="text-sm md:text-base" iconColor="text-neutral-500" /></span>
-
-                <input type="text" placeholder="Ürün veya Kategori Ara" className="px-4 pl-8 py-2 text-sm placeholder:text-xs text-neutral-600 placeholder:text-neutral-500 focus:outline-none bg-neutral-200 rounded-md" />
-
-            </div>
-
             <div className="flex items-center gap-6">
 
                 <div className="flex items-center gap-1">
@@ -28,7 +20,7 @@ function NavbarTop({setIsLoginVisible, setIsRegisterVisible}) {
 
                     <div>
                         <span className="text-neutral-500 text-xs">
-                            <button className={btnStyle} onClick={() => setIsLoginVisible(true)}>Giriş Yap</button> <span>/</span>  
+                            <button className={btnStyle} onClick={() => setIsLoginVisible(true)}>Giriş Yap</button> <span>/</span>
                             <button className={btnStyle} onClick={() => setIsRegisterVisible(true)}>Kayıt Ol</button>
                         </span>
                     </div>

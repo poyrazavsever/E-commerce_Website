@@ -1,6 +1,6 @@
-import Icon from "../../Icon"
+import Icon from "../Icon"
 
-const ProductCard = ({ name, price, discount, link }) => {
+const SimilarCard = ({ name, price, discount, link }) => {
 
   return (
     <a href={`/${name}`}>
@@ -9,7 +9,7 @@ const ProductCard = ({ name, price, discount, link }) => {
 
         <img src={link} alt="productImage" className='w-48 rounded-md' />
 
-        <button className="absolute top-3 right-10">
+        <button className="absolute top-3 right-20">
           <Icon iconType="ai" iconName="AiOutlineHeart" classname="text-sm w-6 h-6 rounded-full bg-white flex items-center justify-center" />
         </button>
 
@@ -30,4 +30,4 @@ const ProductCard = ({ name, price, discount, link }) => {
   )
 }
 
-export default ProductCard
+export default SimilarCard

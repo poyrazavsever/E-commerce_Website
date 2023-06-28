@@ -1,5 +1,6 @@
 import React from 'react'
 import DetailProduct from './DetailProduct'
+import SimilarProduct from './SimilarProduct'
 
 const Detail = () => {
   return (
@@ -11,6 +12,9 @@ const Detail = () => {
         </div>
       </div>
 
+      <div className='container mx-auto'>
+        <SimilarProduct />
+      </div>
 
 
     </div>

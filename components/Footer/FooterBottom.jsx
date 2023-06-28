@@ -5,7 +5,12 @@ function FooterBottom() {
     const linkStyle = "cursor-pointer text-xs md:text-sm text-neutral-600 relative before:content-[''] before:absolute before:w-full before:h-[1px] before:rounded-md before:bg-neutral-400 before:bottom-0 before:left-0 before:origin-right before:scale-x-0 before:transition-all before:ease-in-out before:duration-300 hover:before:origin-left hover:before:scale-x-100"
 
     return (
-        <div className="flex items-start justify-between border-t border-neutral-300 py-8">
+        <div className="flex mobile:flex-col mobile:gap-12 items-start justify-between border-t border-neutral-300 py-8">
+
+            <a href="/" className="desktop:hidden w-full">
+                <h2 className="font-bold font-sans text-2xl tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-neutral-600 to-zinc-900 mb-2">Loucer Butik</h2>
+                <hr />
+            </a>
 
             <div className='flex flex-col items-start gap-4'>
                 <h4 className='text-sm md:text-base font-semibold text-neutral-800'>Size Nasıl Yardım Edebiliriz?</h4>
@@ -76,7 +81,7 @@ function FooterBottom() {
                         <li>Google Play</li>
                     </div>
                     <div className={`flex items-center gap-1 ${linkStyle}`}>
-                        <Icon iconType="ai" iconName="AiFillApple"/>
+                        <Icon iconType="ai" iconName="AiFillApple" />
                         <li>Apple Store</li>
                     </div>
                 </ul>

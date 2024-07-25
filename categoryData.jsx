@@ -111,3 +111,322 @@ export const bodyData = [
         body : "XXL"
     },
 ]
+
+// Max 7 Link
+export const linkData = [
+    {
+        linkName:"Yeni Gelenler",
+        link:"/",
+        type:"newproduct",
+        desc: "Yeni gelen ürünler",
+        bottomLinks: true,
+        bottomLinkNames: [
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+        ]
+    },
+    {
+        linkName:"Yeni Gelenler",
+        link:"/",
+        type:"newproduct",
+        desc: "Yeni gelen ürünler",
+        bottomLinks: false,
+        bottomLinkNames: [
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+        ]
+    }
+    ,{
+        linkName:"Yeni Gelenler",
+        link:"/",
+        type:"newproduct",
+        desc: "Yeni gelen ürünler",
+        bottomLinks: true,
+        bottomLinkNames: [
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+        ]
+    },
+    {
+        linkName:"Yeni Gelenler",
+        link:"/",
+        type:"newproduct",
+        desc: "Yeni gelen ürünler",
+        bottomLinks: true,
+        bottomLinkNames: [
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+        ]
+    },
+    {
+        linkName:"Yeni Gelenler",
+        link:"/",
+        type:"newproduct",
+        desc: "Yeni gelen ürünler",
+        bottomLinks: true,
+        bottomLinkNames: [
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+        ]
+    },
+    {
+        linkName:"Yeni Gelenler",
+        link:"/",
+        type:"newproduct",
+        desc: "Yeni gelen ürünler",
+        bottomLinks: true,
+        bottomLinkNames: [
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+        ]
+    },
+    {
+        linkName:"Yeni Gelenler",
+        link:"/",
+        type:"newproduct",
+        desc: "Yeni gelen ürünler",
+        bottomLinks: true,
+        bottomLinkNames: [
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+        ]
+    },
+]

@@ -1,8 +1,9 @@
 import { useState } from "react"
 import Icon from "./Icon"
 import classNames from "classnames"
+import Link from "next/link"
 
-function LoginModal({isLoginVisible, setIsLoginVisible}) {
+function LoginModal({ isLoginVisible, setIsLoginVisible }) {
 
     const [visiblePassword, setVisiblePassword] = useState(false)
     const passwordBtn = "text-2xl absolute top-[9px] right-3"
@@ -52,8 +53,13 @@ function LoginModal({isLoginVisible, setIsLoginVisible}) {
 
                 </form>
 
-                <div className="flex flex-col items-start gap-1 pt-5">
-                    <p className="text-xs text-neutral-500">Şifrenizi mi unuttunuz? <span className="font-medium underline text-neutral-700">Buradan yenileyin.</span></p>
+                <div className="pt-5 flex flex-col items-start gap-3">
+                    <div className="flex flex-col items-start gap-1">
+                        <p className="text-xs text-neutral-500">Şifrenizi mi unuttunuz? <Link href="/" className="font-medium  text-neutral-700">Buradan yenileyin.</Link></p>
+                    </div>
+                    <div className="flex flex-col items-start gap-1">
+                        <p className="text-xs text-neutral-500">Daha önce kayıt olmadınız mı? <Link href="/" className="font-medium  text-neutral-700">Buradan kayıt olun.</Link></p>
+                    </div>
                 </div>
 
                 <div className="flex items-center gap-8 mt-8">
@@ -65,12 +71,12 @@ function LoginModal({isLoginVisible, setIsLoginVisible}) {
                 <div className="flex flex-col items-start gap-4 mt-5">
 
                     <button className="flex items-center text-sm gap-2 justify-center w-full px-4 py-2 rounded-sm bg-primary text-neutral-800 tracking-wider">
-                        <Icon iconType="ai" iconName="AiFillGoogleCircle" classname="text-xl" iconColor="text-neutral-600" />
+                        <Icon iconType="fc" iconName="FcGoogle" classname="text-xl" iconColor="text-neutral-600" />
                         <span>Google ile Giriş Yap</span>
                     </button>
 
                     <button className="flex items-center text-sm gap-2 justify-center w-full px-4 py-2 rounded-sm bg-primary text-neutral-800 tracking-wider">
-                        <Icon iconType="bi" iconName="BiLogoFacebookCircle" classname="text-xl" iconColor="text-neutral-600" />
+                        <Icon iconType="bi" iconName="BiLogoFacebookCircle" classname="text-xl text-blue-600" iconColor="text-neutral-600" />
                         <span>Facebook ile Giriş Yap</span>
                     </button>
 

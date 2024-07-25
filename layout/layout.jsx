@@ -12,7 +12,11 @@ function Layout({ children }) {
   const [isRegisterVisible, setIsRegisterVisible] = useState(false);
 
   return (
-    <>
+    <div className={classNames({
+      "w-screen h-screen": true,
+      "overflow-hidden": isLoginVisible || isRegisterVisible,
+      "": !isLoginVisible || !isRegisterVisible
+    })}>
       <LoginModal isLoginVisible={isLoginVisible} setIsLoginVisible={setIsLoginVisible} />
       <RegisterModal isRegisterVisible={isRegisterVisible} setIsRegisterVisible={setIsRegisterVisible} />
 
@@ -25,7 +29,7 @@ function Layout({ children }) {
         <Footer />
       </div>
 
-    </>
+    </div>
 
   )
 }

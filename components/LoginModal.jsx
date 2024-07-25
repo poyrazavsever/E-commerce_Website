@@ -16,7 +16,7 @@ function LoginModal({ isLoginVisible, setIsLoginVisible }) {
 
     return (
         <div className={classNames({
-            "animate-card absolute flex items-center justify-center w-screen h-screen backdrop-blur-2xl !z-50": true,
+            "animate-card absolute flex items-center justify-center w-screen h-screen backdrop-blur-2xl !z-50 overflow-hidden": true,
             "flex": isLoginVisible,
             "hidden": !isLoginVisible
         })}>

@@ -25,5 +25,3 @@ In this project, I focused on front-end technologies and aimed to gain experienc
 
 
 <br>
-
-### Figma Design : https://www.figma.com/file/S8AYMcm2Mr1NVORvY8P6sx/E-ticaret-Web-Site?type=design&node-id=222%3A1696&mode=design&t=sHgPybEoh6uH9kHe-1

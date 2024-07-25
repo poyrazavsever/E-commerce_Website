@@ -157,9 +157,40 @@ export const linkData = [
                 bottomLinkName:"Yeni Gelenler",
                 bottomLink:"/"
             },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Yeni Gelenler",
+                bottomLink:"/"
+            },
         ]
     },
     {
+        linkName:"Yeni Gelenler",
+        link:"/",
+        type:"newproduct",
+        desc: "Yeni gelen ürünler",
+        bottomLinks: false,
+    }
+    ,{
         linkName:"Yeni Gelenler",
         link:"/",
         type:"newproduct",
@@ -203,51 +234,6 @@ export const linkData = [
                 bottomLink:"/"
             },
         ]
-    }
-    ,{
-        linkName:"Yeni Gelenler",
-        link:"/",
-        type:"newproduct",
-        desc: "Yeni gelen ürünler",
-        bottomLinks: true,
-        bottomLinkNames: [
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-        ]
     },
     {
         linkName:"Yeni Gelenler",
@@ -389,7 +375,7 @@ export const linkData = [
         link:"/",
         type:"newproduct",
         desc: "Yeni gelen ürünler",
-        bottomLinks: true,
+        bottomLinks: false,
         bottomLinkNames: [
             {
                 bottomLinkName:"Yeni Gelenler",

@@ -39,7 +39,7 @@ function NavbarBottom() {
 
                                                             <div className="flex items-start gap-16">
 
-                                                                <div className=" grid grid-cols-5 gap-8">
+                                                                <div className=" grid grid-cols-5 gap-y-4 gap-x-7">
 
                                                                     {bottomsData.map((bottomData, i) => {
                                                                         return (

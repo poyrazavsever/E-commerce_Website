@@ -12,8 +12,8 @@ module.exports = {
     },
     extend: {
       screens : {
-        "mobile" : {"max" : "623px", "min" : "0px"},
-        "desktop" : {"min": "624px"}
+        "mobile" : {"max" : "823px", "min" : "0px"},
+        "desktop" : {"min": "824px"}
       },
 
       colors: {

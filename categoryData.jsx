@@ -122,297 +122,155 @@ export const linkData = [
         bottomLinks: true,
         bottomLinkNames: [
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Yeni Gelen Eşofmanlar",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Yeni Gelen Tişörtler",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Yeni Gelen Kazaklar",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Yeni Gelen Şortlar",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Yeni Gelen Gömlekler",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Yeni Gelen Sift Yakalar",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Yeni Gelen Boyd Tişörtler",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Yeni Gelen 0 Kollar",
                 bottomLink:"/"
             },
         ]
     },
     {
-        linkName:"Yeni Gelenler",
+        linkName:"Pantolonlar",
         link:"/",
         type:"newproduct",
-        desc: "Yeni gelen ürünler",
+        desc: "Pantolonlar",
         bottomLinks: false,
     }
     ,{
-        linkName:"Yeni Gelenler",
+        linkName:"Tişörtler",
         link:"/",
         type:"newproduct",
         desc: "Yeni gelen ürünler",
         bottomLinks: false,
-        bottomLinkNames: [
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-        ]
     },
     {
-        linkName:"Yeni Gelenler",
+        linkName:"Kazaklar",
         link:"/",
         type:"newproduct",
-        desc: "Yeni gelen ürünler",
+        desc: "Kazaklar",
         bottomLinks: true,
         bottomLinkNames: [
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Kışlık Kazaklar",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Baharlık Kazaklar",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Soft Geçiş Kazaklar",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Hırkalar",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Takım Kazaklar",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Elbise Kazaklar",
                 bottomLink:"/"
             },
         ]
     },
     {
-        linkName:"Yeni Gelenler",
+        linkName:"Şortlar",
         link:"/",
         type:"newproduct",
-        desc: "Yeni gelen ürünler",
-        bottomLinks: true,
-        bottomLinkNames: [
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-        ]
-    },
-    {
-        linkName:"Yeni Gelenler",
-        link:"/",
-        type:"newproduct",
-        desc: "Yeni gelen ürünler",
-        bottomLinks: true,
-        bottomLinkNames: [
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-            {
-                bottomLinkName:"Yeni Gelenler",
-                bottomLink:"/"
-            },
-        ]
-    },
-    {
-        linkName:"Yeni Gelenler",
-        link:"/",
-        type:"newproduct",
-        desc: "Yeni gelen ürünler",
+        desc: "Şortlar",
         bottomLinks: false,
+    },
+    {
+        linkName:"Sokak Tarzı",
+        link:"/",
+        type:"newproduct",
+        desc: "Sokak Tarzı",
+        bottomLinks: true,
         bottomLinkNames: [
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Sokak Tarzı Tişört",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Sokak Tarzı Pantolon",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Sokak Tarzı Şort",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Sokak Tarzı Kazak",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Sokak Tarzı Hırka",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Sokak Tarzı Gömlek",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Sokak Tarzı Tişört",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Sokak Tarzı Pantolon",
                 bottomLink:"/"
             },
             {
-                bottomLinkName:"Yeni Gelenler",
+                bottomLinkName:"Sokak Tarzı Şort",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Sokak Tarzı Kazak",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Sokak Tarzı Hırka",
+                bottomLink:"/"
+            },
+            {
+                bottomLinkName:"Sokak Tarzı Gömlek",
                 bottomLink:"/"
             },
         ]
+    },
+    {
+        linkName:"Gömlekler",
+        link:"/",
+        type:"newproduct",
+        desc: "Gömlekler",
+        bottomLinks: false,
     },
 ]

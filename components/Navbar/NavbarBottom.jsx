@@ -43,7 +43,7 @@ function NavbarBottom() {
 
                                                                     {bottomsData.map((bottomData, i) => {
                                                                         return (
-                                                                            <div>
+                                                                            <div key={i}>
                                                                                 <Link href={bottomData.bottomLink} className={linkStyle} key={i}>
                                                                                     {bottomData.bottomLinkName}
                                                                                 </Link>

@@ -13,7 +13,7 @@ function Layout({ children }) {
 
   return (
     <div className={classNames({
-      "w-screen h-screen": true,
+      "w-screen h-screen !overflow-x-hidden": true,
       "overflow-hidden ": isLoginVisible || isRegisterVisible,
       "": !isLoginVisible || !isRegisterVisible
     })}>
@@ -22,7 +22,6 @@ function Layout({ children }) {
         <LoginModal isLoginVisible={isLoginVisible} setIsLoginVisible={setIsLoginVisible} />
         <RegisterModal isRegisterVisible={isRegisterVisible} setIsRegisterVisible={setIsRegisterVisible} />
       </div>
-
 
       <div>
 

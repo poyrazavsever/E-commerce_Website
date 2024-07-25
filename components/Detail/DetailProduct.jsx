@@ -1,5 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useRouter } from 'next/router'
+import Link from 'next/link';
+import Image from 'next/image';
 
 import { data } from "../../productData"
 import { Tooltip } from 'react-tooltip'
@@ -67,7 +69,7 @@ const DetailProduct = () => {
                 images?.map((item, i) => {
                   return (
                     <Slide index={i} key={i}>
-                      <img src={item.image} className='rounded-xl' />
+                      <Image src={item.image} className='rounded-xl' alt='altProp' />
                     </Slide>
                   )
 
@@ -81,7 +83,7 @@ const DetailProduct = () => {
                 images?.map((item, i) => {
                   return (
                     <Dot key={i} index={i} slide={i} className='border border-neutral-300 rounded w-9 mr-2 mt-1 disabled:grayscale'>
-                      <img src={item.image} />
+                      <Image src={item.image} alt='altProp'/>
                     </Dot>
                   )
                 })
@@ -128,7 +130,7 @@ const DetailProduct = () => {
                   return (
                     <div key={i}>
                       <button className='w-10'>
-                        <img src={color.image} data-tooltip-id={color.color} data-tooltip-content={color.color} className='w-full rounded' />
+                        <Image src={color.image} data-tooltip-id={color.color} data-tooltip-content={color.color} className='w-full rounded' alt='altProp'/>
                       </button>
                       <Tooltip id={color.color} />
                     </div>
@@ -160,9 +162,9 @@ const DetailProduct = () => {
 
               <ul className='flex flex-col items-start gap-1'>
 
-                <li className='text-neutral-400 text-xs'>30 gün içersinde ücretsiz iade. <a href='#' className='underline font-medium text-neutral-600'>Detaylı bilgi için tıklayın.</a> </li>
+                <li className='text-neutral-400 text-xs'>30 gün içersinde ücretsiz iade. <Link href='#' className='underline font-medium text-neutral-600'>Detaylı bilgi için tıklayın.</Link> </li>
 
-                <li className='text-neutral-400 text-xs'>Bu ürün sizlere <a href='/about' className='underline font-medium text-neutral-600'>“Harika Butik”</a> tarafından gönderilecektir.</li>
+                <li className='text-neutral-400 text-xs'>Bu ürün sizlere <Link href='/about' className='underline font-medium text-neutral-600'>“Harika Butik”</Link> tarafından gönderilecektir.</li>
 
                 <li className='text-neutral-400 text-xs'>Mankenin üzrindeki ürün M bedendir.</li>
 

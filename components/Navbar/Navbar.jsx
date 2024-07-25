@@ -7,7 +7,7 @@ function Navbar({ setIsLoginVisible, setIsRegisterVisible }) {
     <nav className="!z-20">
 
       <div className="border-b border-neutral-200">
-        <div className="container mx-auto mobile:hidden">
+        <div className="mobile:hidden">
           <NavbarTop setIsLoginVisible={setIsLoginVisible} setIsRegisterVisible={setIsRegisterVisible} />
           <NavbarBottom />
         </div>

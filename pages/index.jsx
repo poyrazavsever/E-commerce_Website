@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import Slider from '@/components/Home/Slider'
 import Category from '@/components/Home/Category/Category'
 import Product from '@/components/Home/Product/Product'
+import Upper from '@/components/Home/Upper'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,9 +15,11 @@ export default function Home() {
 
       {/* Ürünler  */}
 
-      <div className='md:container md:mx-auto my-24'>
+      <div className='md:container md:mx-auto my-12'>
+        
+        <Upper />
 
-        <div className='flex items-start gap-24'>
+        <div className='flex items-start gap-24 mt-24'>
           <Category />
           <Product />
         </div>

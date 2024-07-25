@@ -5,11 +5,11 @@ function NavbarBottom() {
     const linkStyle = "font-medium cursor-pointer text-[10px] md:text-sm text-neutral-900 relative before:content-[''] before:absolute before:w-full before:h-[1px] before:rounded-md before:bg-tert-200 before:bottom-0 before:left-0 before:origin-right before:scale-x-0 before:transition-all before:ease-in-out before:duration-300 hover:before:origin-left hover:before:scale-x-100"
 
     return (
-        <div>
-            <div className="flex items-center justify-between py-10 relative">
+        <div className="container mx-auto relative">
+            <div className="flex items-center justify-between py-10">
 
                 <Link href="/">
-                    <h2 className="font-bold font-sans text-base md:text-xl lg:text-2xl tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-neutral-600 to-zinc-900">Loucer Butik</h2>
+                    <h2 className="text-base font-mono font-black md:text-2xl tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-neutral-800 to-amber-500">Sokak Butik</h2>
                 </Link>
 
                 <div className="z-20">
@@ -21,7 +21,7 @@ function NavbarBottom() {
                                 Yeni Gelenler
                             </li>
 
-                            <div className="absolute right-0 w-full pt-20 hidden animate-card group-hover:block bg-white">
+                            <div className="absolute bg-white right-0 w-full pt-20 hidden animate-card group-hover:block">
 
                                 <div className="flex items-start gap-16">
 

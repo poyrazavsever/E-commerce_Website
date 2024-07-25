@@ -21,55 +21,73 @@ export const typeData = [
 
 export const colorData = [
     {
-        color : "#fbcfe8"
+        color : "#94a3b8"
     },
     {
-        color : "#7c3aed"
+        color : "#334155"
     },
     {
-        color : "#1d4ed8"
+        color : "#020617"
     },
     {
-        color : "#bfdbfe"
+        color : "#fca5a5"
     },
     {
-        color : "#022c22"
+        color : "#b91c1c"
     },
     {
-        color : "#059669"
+        color : "#450a0a"
     },
     {
-        color : "#a7f3d0"
+        color : "#fdba74"
     },
     {
-        color : "#84cc16"
-    },
-    {
-        color : "#eab308"
-    },
-    {
-        color : "#eab308"
-    },
-    {
-        color : "#a3e635"
-    },
-    {
-        color : "#a16207"
-    },
-    {
-        color : "#dc2626"
-    },
-    {
-        color : "#78350f"
-    },
-    {
-        color : "#525252"
+        color : "#c2410c"
     },
     {
         color : "#bef264"
     },
     {
-        color : "#d946ef"
+        color : "#22c55e"
+    },
+    {
+        color : "#6ee7b7"
+    },
+    {
+        color : "#0f766e"
+    },
+    {
+        color : "#06b6d4"
+    },
+    {
+        color : "#075985"
+    },
+    {
+        color : "#818cf8"
+    },
+    {
+        color : "#3730a3"
+    },
+    {
+        color : "#4a044e"
+    },
+    {
+        color : "#fbcfe8"
+    },
+    {
+        color : "#ec4899"
+    },
+    {
+        color : "#be185d"
+    },
+    {
+        color : "#831843"
+    },
+    {
+        color : "#fda4af"
+    },
+    {
+        color : "#9f1239"
     },
 ]
 

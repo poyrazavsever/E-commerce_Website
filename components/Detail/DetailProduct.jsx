@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router'
 import Link from 'next/link';
-import Image from 'next/image';
+import img from 'next/image';
 
 import { data } from "../../productData"
 import { Tooltip } from 'react-tooltip'
@@ -69,7 +69,7 @@ const DetailProduct = () => {
                 images?.map((item, i) => {
                   return (
                     <Slide index={i} key={i}>
-                      <Image src={item.image} className='rounded-xl' alt='altProp' />
+                      <img src={item.image} className='rounded-xl' alt='altProp' />
                     </Slide>
                   )
 
@@ -83,7 +83,7 @@ const DetailProduct = () => {
                 images?.map((item, i) => {
                   return (
                     <Dot key={i} index={i} slide={i} className='border border-neutral-300 rounded w-9 mr-2 mt-1 disabled:grayscale'>
-                      <Image src={item.image} alt='altProp'/>
+                      <img src={item.image} alt='altProp'/>
                     </Dot>
                   )
                 })
@@ -130,7 +130,7 @@ const DetailProduct = () => {
                   return (
                     <div key={i}>
                       <button className='w-10'>
-                        <Image src={color.image} data-tooltip-id={color.color} data-tooltip-content={color.color} className='w-full rounded' alt='altProp'/>
+                        <img src={color.image} data-tooltip-id={color.color} data-tooltip-content={color.color} className='w-full rounded' alt='altProp'/>
                       </button>
                       <Tooltip id={color.color} />
                     </div>

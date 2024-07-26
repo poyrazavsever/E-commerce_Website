@@ -1,5 +1,4 @@
 import Icon from "../Icon"
-import Image from "next/image"
 
 const SimilarCard = ({ name, price, discount, link }) => {
 
@@ -8,7 +7,7 @@ const SimilarCard = ({ name, price, discount, link }) => {
 
       <div className="relative">
 
-        <Image src={link} alt="productImage" className='w-48 rounded-md' />
+        <img src={link} alt="productImage" className='w-48 rounded-md' />
 
         <button className="absolute top-3 right-20">
           <Icon iconType="ai" iconName="AiOutlineHeart" classname="text-sm w-6 h-6 rounded-full bg-white flex items-center justify-center" />
